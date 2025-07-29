@@ -1,0 +1,21 @@
+{
+  "name": "hono-auth-app",
+  "version": "1.0.0",
+  "description": "Authentication system using Hono framework",
+  "main": "src/app.ts",
+  "scripts": {
+    "start": "ts-node src/server.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "hono": "^3.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "undici": "^5.26.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "@types/jsonwebtoken": "^9.0.0",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.0.0"
+  }
+}
