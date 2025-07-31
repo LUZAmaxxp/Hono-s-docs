@@ -27,3 +27,16 @@ node hono-auth-app/src/server.ts
 ```
 
 The server listens on port 3000 by default. You can then interact with the API endpoints using tools like curl or Postman.
+
+## Deployment
+
+This project includes deployment scripts for various platforms:
+
+- **AWS Lambda**: Use the `deploy-aws.sh` script to deploy the app using AWS SAM. Make sure to configure your AWS CLI and replace the S3 bucket name in the script.
+
+- **Azure Functions**: Use the `deploy-azure.sh` script to deploy the app to Azure Functions. This script creates the necessary resource group, storage account, and function app before deploying.
+
+- **Vercel**: Use the `deploy-vercel.sh` script to deploy the app to Vercel. The script installs the Vercel CLI if not present and deploys the app to the production environment.
+
+Run the appropriate script based on your target platform to deploy the application.
+
