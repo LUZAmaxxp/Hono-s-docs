@@ -10,6 +10,7 @@
   "dependencies": {
     "hono": "^3.0.0",
     "jsonwebtoken": "^9.0.0",
+    "bcrypt": "^5.0.1",
     "undici": "^5.26.0"
   },
   "devDependencies": {
