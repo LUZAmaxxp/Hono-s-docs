@@ -38,5 +38,4 @@ This project includes deployment scripts for various platforms:
 
 - **Vercel**: Use the `deploy-vercel.sh` script to deploy the app to Vercel. The script installs the Vercel CLI if not present and deploys the app to the production environment.
 
-Run the appropriate script based on your target platform to deploy the application.
 
